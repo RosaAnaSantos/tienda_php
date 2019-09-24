@@ -1,0 +1,14 @@
+CREATE TABLE usuarios(
+
+login VARCHAR(20),
+pass VARCHAR(10),
+nombre VARCHAR(50),
+apellidos VARCHAR(50),
+tipo_usuario VARCHAR(20),
+
+PRIMARY KEY (login)
+);
+
+
+INSERT INTO usuarios VALUES('dani','1234','Daniel','Alvarez','admin');
+INSERT INTO usuarios VALUES('rosa','1234','Rosa Maria','Perez','user');
